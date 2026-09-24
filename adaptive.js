@@ -57,6 +57,7 @@ function renderStandaloneExercise(container, exercise, onAnswered) {
     wrap.appendChild(opts);
   } else {
     const row = document.createElement("div");
+    row.className = "fill-row";
     const input = document.createElement("input");
     input.type = "text";
     input.placeholder = "Answer...";
